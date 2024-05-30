@@ -1,22 +1,17 @@
 <script>
 import AppTitle from './components/AppTitle.vue';
+import AppJumbo from './components/AppJumbo.vue';
+
 export default {
     name: 'MyApp',
-    data() {
-        return {
-      };
-  },
-
-  components: {
+    components: {
       AppTitle,
+      AppJumbo,
   }
 }
 </script>
 
 <template>
   <AppTitle />
+  <AppJumbo />
 </template>
-
-<style scoped>
-
-</style>
